@@ -1,0 +1,10 @@
+bread=3.49
+dayold_bread=0.6
+number_bread=int(input("Введите количество буханок хлеба: "))
+regular_price=number_bread*bread
+discount=regular_price*dayold_bread
+total_price=regular_price-discount
+print ("Цена: ", regular_price)
+print ("Скидка: ", discount) 
+print ("Сумма к оплате: ", total_price) 
+#пыталась округлить значения в Сумма к оплате с помощью toFixet & %.2F - не получилось, выдает неправильный синтаксис
