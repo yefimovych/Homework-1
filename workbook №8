@@ -1,0 +1,6 @@
+widget=75
+gizmo=112
+number_w=int(input("Введите количество: "))
+number_g=int(input("Введите количество: "))
+total_grm=(number_w*widget)+(number_g*gizmo)
+print ("Общая масса ", total_grm,  " грамм" )
